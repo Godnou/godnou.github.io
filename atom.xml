@@ -5,16 +5,16 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/blog/"/>
+  <link href="http://yanhui.world/blog/"/>
   <updated>2018-03-10T02:47:21.000Z</updated>
-  <id>http://yoursite.com/blog/</id>
+  <id>http://yanhui.world/blog/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello</title>
-    <link href="http://yoursite.com/blog/2018/03/09/Hello/"/>
-    <id>http://yoursite.com/blog/2018/03/09/Hello/</id>
+    <link href="http://yanhui.world/blog/2018/03/09/Hello/"/>
+    <id>http://yanhui.world/blog/2018/03/09/Hello/</id>
     <published>2018-03-10T02:47:21.000Z</published>
     <updated>2018-03-10T02:47:21.000Z</updated>
     
