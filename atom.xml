@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Beautiful world</title>
+  <title></title>
   
   
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://yanhui.world/blog/"/>
+  <link href="http://yanhui.world/"/>
   <updated>2018-03-10T02:47:21.000Z</updated>
-  <id>http://yanhui.world/blog/</id>
+  <id>http://yanhui.world/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello</title>
-    <link href="http://yanhui.world/blog/2018/03/09/Hello/"/>
-    <id>http://yanhui.world/blog/2018/03/09/Hello/</id>
+    <link href="http://yanhui.world/2018/03/09/Hello/"/>
+    <id>http://yanhui.world/2018/03/09/Hello/</id>
     <published>2018-03-10T02:47:21.000Z</published>
     <updated>2018-03-10T02:47:21.000Z</updated>
     
