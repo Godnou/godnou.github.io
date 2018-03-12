@@ -5,16 +5,16 @@
   <subtitle>Beautiful World</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://yanhui.world/"/>
+  <link href="http://Godnou.github.io/"/>
   <updated>2018-03-12T16:59:10.000Z</updated>
-  <id>http://yanhui.world/</id>
+  <id>http://Godnou.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello</title>
-    <link href="http://yanhui.world/2018/03/12/Hello/"/>
-    <id>http://yanhui.world/2018/03/12/Hello/</id>
+    <link href="http://Godnou.github.io/2018/03/12/Hello/"/>
+    <id>http://Godnou.github.io/2018/03/12/Hello/</id>
     <published>2018-03-12T16:59:10.000Z</published>
     <updated>2018-03-12T16:59:10.000Z</updated>
     
@@ -31,7 +31,7 @@
     </summary>
     
     
-      <category term="Hi" scheme="http://yanhui.world/tags/Hi/"/>
+      <category term="Hi" scheme="http://Godnou.github.io/tags/Hi/"/>
     
   </entry>
   
