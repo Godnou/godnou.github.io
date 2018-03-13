@@ -26,9 +26,9 @@
   height: 50vh;
   display: block;
   box-sizing: border-box;
-  -webkit-filter: saturate(150%);
-  -moz-filter: saturate(150%);
-  filter: saturate(150%);
+  -webkit-filter: saturate(120%);
+  -moz-filter: saturate(120%);
+  filter: saturate(120%);
   position: relative;
 }
 @media only screen and (orientation: landscape) and (max-width: 64em) {
