@@ -18,12 +18,29 @@
 	<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
+    <script type="text/javascript">  
+        <!-- 获取 html 元素-->  
+        var html = document.documentElement;   
+       <!--封装一个函数  
+        function fontS(){  
+            <!-- 获取 html 的宽 -->
+            var hW = html.offsetWidth;  
+            <!--计算字体大小，这里是 html 宽的五十分之一-->  
+            var hS = hW / 50;  
+            <!--给刚开始时的 html 设置字体大小-->     
+            html.style.fontSize = hS + "px";  
+        }  
+        <!-- 当窗口大小改变时执行函数 -->   
+        fontS()window.onresize = function(){fontS();}  
+    </script>  	
 	<header class="header">
 		<nav class="header__nav">
 			
 		</nav>
-		<h1 class="header__title"><a href="/">$$$$</a></h1>
-		<h2 class="header__subtitle">$$$$</h2>
+		<h1 class="header__title"><a href="/">$${\delta}{\Pi}={\frac{D}{D\epsilon}} {\mid}_{{\epsilon}=0}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y})
+$$</a></h1>
+		<h2 class="header__subtitle">$${\dot{\Pi}}={\frac{D\Pi}{Dt}} 
+$$</h2>
 	</header>
 
 	<main>
