@@ -30,75 +30,44 @@ $$</h2>
 	</header>
 
 	<main>
+		<h1>Archive</h1>
+
+
+
+
+
+<ul class="archive">
+	
+	
+		<li class="archive__year archive__expendable ">
+			<span>2018</span>
+			<ul>
+				
+					<li class="archive__month archive__expendable">
+						<span>March</span>
+						<ul>
+							
+								<li class="archive__entry"><a href="/2018/03/12/Hello/">Hello</a></li>
+							
+						</ul>
+					</li>
+
+				
+			</ul>
+		</li>
 		
-
-
-
-	<article>
 	
-		<h1><a href="/2018/03/13/Printing/">Printing</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2018-03-13</span><br />
-		
-		
-			<span class="article__tags">
-			  	<a class="article__tag-link" href="/tags/3DPrinting/">3DPrinting</a>
-			</span>
-		
-	</div>
+</ul>
 
-	
-
-	
-		<p>Simulation of the forming of a layer duiring 3D printing</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/layer.png"></figure>
-
-</div>
-<p>Simple demo.</p>
-
-	
-
-	
-
-</article>
-
-
-
-
-	<article>
-	
-		<h1><a href="/2018/03/12/Hello/">Hello</a></h1>
-	
-	<div class="article__infos">
-		<span class="article__date">2018-03-12</span><br />
-		
-		
-			<span class="article__tags">
-			  	<a class="article__tag-link" href="/tags/Hi/">Hi</a>
-			</span>
-		
-	</div>
-
-	
-
-	
-		<p>The beautiful world!</p>
-
-	
-
-	
-
-</article>
-
-
-
-
-
-
-	<!--<span class="different-posts">📕 end of posts 📕</span>-->
-
+<script>
+	const expandables = document.querySelectorAll('.archive__expendable')
+	for(let i = 0; i < expandables.length; i++) {
+		expandables[i].addEventListener('click', (e) => {
+			e.stopPropagation()
+			expandables[i].classList.toggle('archive__expendable_collapsed')
+		})
+	}
+</script>
 
 	</main>
 

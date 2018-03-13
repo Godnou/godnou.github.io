@@ -8,7 +8,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-12T16:59:10.000Z</updated>
+  <updated>2018-03-13T16:39:13.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -17,6 +17,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Printing</title>
+    <link href="http://Godnou.github.io/2018/03/13/Printing/"/>
+    <id>http://Godnou.github.io/2018/03/13/Printing/</id>
+    <published>2018-03-13T16:35:47.000Z</published>
+    <updated>2018-03-13T16:39:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Simulation of the forming of a layer duiring 3D printing</p><div class="figure"><figure class="figure"><img src="/imag/layer.png"></figure></div><p>Simple demo.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Simulation of the forming of a layer duiring 3D printing&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot;&gt;&lt;/fig
+      
+    
+    </summary>
+    
+    
+      <category term="3DPrinting" scheme="http://Godnou.github.io/tags/3DPrinting/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello</title>
