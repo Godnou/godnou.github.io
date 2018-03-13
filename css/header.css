@@ -26,9 +26,9 @@
   height: 50vh;
   display: block;
   box-sizing: border-box;
-  -webkit-filter: saturate(120%);
-  -moz-filter: saturate(120%);
-  filter: saturate(120%);
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  filter: saturate(150%);
   position: relative;
 }
 @media only screen and (orientation: landscape) and (max-width: 64em) {
@@ -37,7 +37,7 @@
   }
 }
 .header__title {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   color: #f9fafa;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
@@ -48,7 +48,7 @@
 }
 @media only screen and (max-width: 40em) {
   .header__title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .header__subtitle {
     font-size: 1.5rem;
