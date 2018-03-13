@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{\delta}{\Pi}={\frac{D}{D\epsilon}} {\mid}_{{\epsilon}=0}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y}
+  <title>{\delta}{\Pi}={\frac{D}{D\epsilon}} {\mid}_{{\epsilon}=0}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y})
 </title>
   
-  <subtitle>Beautiful World</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
   <updated>2018-03-12T16:59:10.000Z</updated>
   <id>http://Godnou.github.io/</id>
+  
+  <author>
+    <name>Yanhui</name>
+    
+  </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
