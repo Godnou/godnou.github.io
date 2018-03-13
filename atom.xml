@@ -3,7 +3,7 @@
   <title>{\clubsuit}{\diamondsuit}{\heartsuit}{\spadesuit}
 </title>
   
-  <subtitle>{\delta}{\Pi}={\frac{D}{D\epsilon}} \newline {\mid}_{{\epsilon}=0}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y}) {\dot{\Pi}}={\frac{D\Pi}{Dt}} 
+  <subtitle>{\delta}{\Pi}={\frac{D}{D\epsilon}} \linebreak {\mid}_{{\epsilon}=0}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y}) {\dot{\Pi}}={\frac{D\Pi}{Dt}} 
 </subtitle>
   <link href="/atom.xml" rel="self"/>
   
