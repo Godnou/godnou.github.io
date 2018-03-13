@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
+  <title>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</title>
   
   <subtitle>Beautiful World</subtitle>
   <link href="/atom.xml" rel="self"/>
