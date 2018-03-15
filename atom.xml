@@ -3,12 +3,12 @@
   <title>{\clubsuit}{\diamondsuit}{\heartsuit}{\spadesuit}
 </title>
   
-  <subtitle>{\delta}{\Pi}={\frac{D}{D\epsilon}} {\mid}_{{\epsilon}=0}{\quad}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y}) \\ {\dot{\Pi}}={\frac{{\it{D}}\Pi}{{\it{D}}t}} 
+  <subtitle>##{\delta}{\Pi}={\frac{D}{D\epsilon}} ##{\mid}_{{\epsilon}=0}{\quad}{\Pi}(\bf{y}+{\epsilon}{\delta}\bf{y}) ##\\ ##{\dot{\Pi}}={\frac{{\it{D}}\Pi}{{\it{D}}t}} 
 </subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-15T18:13:29.000Z</updated>
+  <updated>2018-03-15T18:26:16.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -23,17 +23,20 @@
     <link href="http://Godnou.github.io/2018/03/15/Ferromagnetic%20elastomer%20lattice/"/>
     <id>http://Godnou.github.io/2018/03/15/Ferromagnetic elastomer lattice/</id>
     <published>2018-03-15T14:06:26.000Z</published>
-    <updated>2018-03-15T18:13:29.000Z</updated>
+    <updated>2018-03-15T18:26:16.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Schematics show the setup of the test</p><p><figure class="figure"><img src="/imag/2.png" alt=""></figure></p><p>A Sample and Results</p><p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p><p>All relevant work were done on Dec. 2016.</p>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A real sample (8x8x8 mm^3 cubic)and the test result:</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>The work and other relevant work was done on Dec. 2016.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Schematics show the setup of the test&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;A Sample and Results&lt;/
+        &lt;p&gt;A schematic showing the setup of a test:&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;A re
       
     
     </summary>
@@ -50,15 +53,15 @@
     <published>2018-03-13T16:35:47.000Z</published>
     <updated>2018-03-15T14:06:03.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><p><figure class="figure"><img src="/imag/layer.png" alt=""></figure></p><p>Simple demo.</p>]]></content>
+    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><div class="figure"><figure class="figure"><img src="/imag/layer.png"></figure></div><p>Simple demo.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Simulation of the forming of a layer during 3D printing&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot;&gt;&lt;/figu
       
     
     </summary>
