@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-17T18:25:15.000Z</updated>
+  <updated>2018-03-17T19:23:21.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Permeability for fluid structural interation</title>
+    <title>Permeability for fluid structural interaction</title>
     <link href="http://Godnou.github.io/2018/03/17/Permeability%20for%20fluid%20flow/"/>
     <id>http://Godnou.github.io/2018/03/17/Permeability for fluid flow/</id>
     <published>2018-03-17T18:15:09.000Z</published>
-    <updated>2018-03-17T18:25:15.000Z</updated>
+    <updated>2018-03-17T19:23:21.000Z</updated>
     
     <content type="html"><![CDATA[<p>An Octet-truss structure as a RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><p>Compression effect on the permeability of the structure:</p><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div><p>Results:</p><div class="figure"><figure class="figure"><img src="/imag/per3.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
     
