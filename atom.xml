@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{\clubsuit}{\diamondsuit}{\heartsuit}{\spadesuit}
-</title>
+  <title>Welcome to Yanhui&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -24,7 +23,7 @@
     <published>2018-03-17T18:15:09.000Z</published>
     <updated>2018-03-17T18:25:15.000Z</updated>
     
-    <content type="html"><![CDATA[<p>An Octet-truss structure as a RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><p>Compression effect on the permeability of the structure:</p><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div><p>Results:</p><div class="figure"><figure class="figure"><img src="/imag/per3.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>An Octet-truss structure as a RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><p><figure class="figure"><img src="/imag/per1.png" alt=""></figure></p><p>Compression effect on the permeability of the structure:</p><p><figure class="figure"><img src="/imag/per2.png" alt=""></figure></p><p>Results:</p><p><figure class="figure"><img src="/imag/per3.png" alt=""></figure></p><p>The work and related experimental work were done in 2017.</p>]]></content>
     
     <summary type="html">
     
@@ -48,15 +47,14 @@
     <published>2018-03-16T14:02:58.000Z</published>
     <updated>2018-03-17T18:16:21.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><p><figure class="figure"><img src="/imag/buckling1.png" alt=""></figure></p><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><p><figure class="figure"><img src="/imag/buckling2.png" alt=""></figure></p><p>The work and related experimental work were done in 2017.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;fi
+&lt;p&gt;&lt;figure class=&quot;figure
       
     
     </summary>
@@ -73,18 +71,15 @@
     <published>2018-03-15T14:06:26.000Z</published>
     <updated>2018-03-17T18:25:37.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A real sample (8x8x8 mm^3 cubic)and the test result:</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>The work and other relevant work were done in 2016.</p>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><p><figure class="figure"><img src="/imag/2.png" alt=""></figure></p><p>A real sample (8x8x8 mm^3 cubic)and the test result:</p><p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p><p>The work and other relevant work were done in 2016.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;A schematic showing the setup of a test:&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
-
-&lt;/div&gt;
-&lt;p&gt;A re
+&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;A real sample (8x8x
       
     
     </summary>
@@ -101,15 +96,15 @@
     <published>2018-03-13T16:35:47.000Z</published>
     <updated>2018-03-15T14:06:03.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><div class="figure"><figure class="figure"><img src="/imag/layer.png"></figure></div><p>Simple demo.</p>]]></content>
+    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><p><figure class="figure"><img src="/imag/layer.png" alt=""></figure></p><p>Simple demo.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Simulation of the forming of a layer during 3D printing&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot;&gt;&lt;/figu
+&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;
       
     
     </summary>
