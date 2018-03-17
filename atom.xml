@@ -7,7 +7,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-17T18:09:20.000Z</updated>
+  <updated>2018-03-17T18:24:00.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -18,13 +18,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Thin film buckling</title>
-    <link href="http://Godnou.github.io/2018/03/17/Thin%20film%20buckling/"/>
-    <id>http://Godnou.github.io/2018/03/17/Thin film buckling/</id>
-    <published>2018-03-17T18:02:58.000Z</published>
-    <updated>2018-03-17T18:09:20.000Z</updated>
+    <title>Permeability for fluid structural interation</title>
+    <link href="http://Godnou.github.io/2018/03/17/Permeability%20for%20fluid%20flow/"/>
+    <id>http://Godnou.github.io/2018/03/17/Permeability for fluid flow/</id>
+    <published>2018-03-17T18:15:09.000Z</published>
+    <updated>2018-03-17T18:24:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div><p>The work and related experimental work were done in Feb. 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><p>Compression effect on the permeability of the structure:</p><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div><p>Results:</p><div class="figure"><figure class="figure"><img src="/imag/per3.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="FEM" scheme="http://Godnou.github.io/tags/FEM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Thin film buckling</title>
+    <link href="http://Godnou.github.io/2018/03/16/Thin%20film%20buckling/"/>
+    <id>http://Godnou.github.io/2018/03/16/Thin film buckling/</id>
+    <published>2018-03-16T14:02:58.000Z</published>
+    <updated>2018-03-17T18:16:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
     
     <summary type="html">
     
