@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-17T19:24:04.000Z</updated>
+  <updated>2018-03-30T03:03:52.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A picture and a story</title>
+    <link href="http://Godnou.github.io/2018/03/29/demo/"/>
+    <id>http://Godnou.github.io/2018/03/29/demo/</id>
+    <published>2018-03-30T02:43:04.000Z</published>
+    <updated>2018-03-30T03:03:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div><p>Related work were done in July. 2016. However, the publication was delayed until July. 2017.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;The pictures below were taken in Apr. 2016.&lt;/p&gt;
+&lt;p&gt;It can be appreciated purely from a aesthetical perspective without any rational pursu
+      
+    
+    </summary>
+    
+    
+      <category term="3DPrinting" scheme="http://Godnou.github.io/tags/3DPrinting/"/>
+    
+  </entry>
   
   <entry>
     <title>Permeability for fluid structural interaction</title>
