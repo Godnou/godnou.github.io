@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-31T03:03:03.000Z</updated>
+  <updated>2018-03-31T03:07:03.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://Godnou.github.io/2018/03/30/Abaqus_standard/"/>
     <id>http://Godnou.github.io/2018/03/30/Abaqus_standard/</id>
     <published>2018-03-31T02:26:25.000Z</published>
-    <updated>2018-03-31T03:03:03.000Z</updated>
+    <updated>2018-03-31T03:07:03.000Z</updated>
     
-    <content type="html"><![CDATA[<pre><code>I try to use a very simple example to demonstrate how abaqus/standard works, </code></pre><p>i.e. the algorithm used in Abaqus. Following is an example to verify the principle.</p><ol style="list-style-type: decimal"><li><p>A C3D8 brick is developed in Matlab.</p></li><li><p>Linear elastic material model is used in the element. By taking large</p></li></ol><p>displacement into consideration, more accurately speaking, the material model is</p><p>called hypoelasticity.</p><ol start="3" style="list-style-type: decimal"><li>The updated Lagrange format is used in the algorithm.</li></ol><p>Comparison:</p><div class="figure"><figure class="figure"><img src="/imag/demo3.png"></figure></div><p>From the comparison, one might find the result is different from the one</p><p>given by K.J. Bathe's book. The discreprency stems from the difference of</p><p>procedures for calculating stress.</p>]]></content>
+    <content type="html"><![CDATA[<p>I try to use a very simple example to demonstrate how abaqus/standard works, i.e. the algorithm used in Abaqus.<br>Following is an example to verify the principle.</p><ol><li><p>A C3D8 brick is developed in Matlab. A single element 2x2x2 cm^3 is tested.</p></li><li><p>Linear elastic material model is used in the element. By taking large displacement into consideration, more<br>accurately speaking, the material model is called hypoelasticity. </p></li><li><p>The updated Lagrange format is used in the algorithm. </p></li><li><p>Comparison:</p></li></ol><p><figure class="figure"><img src="/imag/demo3.png" alt=""></figure></p><p>From the comparison, one might find the result is different from the one given by K.J. Bathe’s book. The<br>discreprency stems from the difference of procedures for calculating stress.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;pre&gt;&lt;code&gt;I try to use a very simple example to demonstrate how abaqus/standard works, &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;i.e. the algorithm used in Abaqus. 
+        &lt;p&gt;I try to use a very simple example to demonstrate how abaqus/standard works, i.e. the algorithm used in Abaqus.&lt;br&gt;Following is an exampl
       
     
     </summary>
@@ -47,7 +46,7 @@
     <published>2018-03-30T02:43:04.000Z</published>
     <updated>2018-03-30T16:18:20.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div><p>Related works were done in July. 2016. However, the publication was delayed until July. 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><p><figure class="figure"><img src="/imag/structure.png" alt=""></figure></p><p>Related works were done in July. 2016. However, the publication was delayed until July. 2017. </p>]]></content>
     
     <summary type="html">
     
@@ -71,7 +70,7 @@
     <published>2018-03-17T18:15:09.000Z</published>
     <updated>2018-03-17T19:24:04.000Z</updated>
     
-    <content type="html"><![CDATA[<p>An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><p>Compression effect on the permeability of the structure:</p><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div><p>Results:</p><div class="figure"><figure class="figure"><img src="/imag/per3.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><p><figure class="figure"><img src="/imag/per1.png" alt=""></figure></p><p>Compression effect on the permeability of the structure:</p><p><figure class="figure"><img src="/imag/per2.png" alt=""></figure></p><p>Results:</p><p><figure class="figure"><img src="/imag/per3.png" alt=""></figure></p><p>The work and related experimental work were done in 2017.</p>]]></content>
     
     <summary type="html">
     
@@ -95,15 +94,14 @@
     <published>2018-03-16T14:02:58.000Z</published>
     <updated>2018-03-17T18:16:21.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><p><figure class="figure"><img src="/imag/buckling1.png" alt=""></figure></p><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><p><figure class="figure"><img src="/imag/buckling2.png" alt=""></figure></p><p>The work and related experimental work were done in 2017.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;fi
+&lt;p&gt;&lt;figure class=&quot;figure
       
     
     </summary>
@@ -120,18 +118,15 @@
     <published>2018-03-15T14:06:26.000Z</published>
     <updated>2018-03-17T18:25:37.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A real sample (8x8x8 mm^3 cubic)and the test result:</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>The work and other relevant work were done in 2016.</p>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><p><figure class="figure"><img src="/imag/2.png" alt=""></figure></p><p>A real sample (8x8x8 mm^3 cubic)and the test result:</p><p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p><p>The work and other relevant work were done in 2016.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;A schematic showing the setup of a test:&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
-
-&lt;/div&gt;
-&lt;p&gt;A re
+&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;A real sample (8x8x
       
     
     </summary>
@@ -148,15 +143,15 @@
     <published>2018-03-13T16:35:47.000Z</published>
     <updated>2018-03-15T14:06:03.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><div class="figure"><figure class="figure"><img src="/imag/layer.png"></figure></div><p>Simple demo.</p>]]></content>
+    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><p><figure class="figure"><img src="/imag/layer.png" alt=""></figure></p><p>Simple demo.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Simulation of the forming of a layer during 3D printing&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot;&gt;&lt;/figu
+&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;
       
     
     </summary>
