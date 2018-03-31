@@ -28,6 +28,49 @@
 
 	<article>
 	
+		<h1><a href="/2018/03/30/Abaqus_standard/">How abaqus/standard works</a></h1>
+	
+	<div class="article__infos">
+		<span class="article__date">2018-03-30</span><br />
+		
+		
+			<span class="article__tags">
+			  	<a class="article__tag-link" href="/tags/FEM/">FEM</a>
+			</span>
+		
+	</div>
+
+	
+
+	
+		<pre><code>I try to use a very simple example to demonstrate how abaqus/standard works, i.e. the algorithm used in </code></pre>
+<p>Abaqus. Following is an example to verify the principle.</p>
+<pre><code>1. A C3D8 brick is developed in Matlab.
+
+2. Linear elastic material model is used in the element. By taking large displacement into consideration, 
+
+   more accurately speaking, the material model is called hypoelasticity. 
+
+3. The updated Lagrange format is used in the algorithm. </code></pre>
+<p>Comparison:</p>
+<div class="figure">
+<figure class="figure"><img src="/imag/demo3.png"></figure>
+
+</div>
+<pre><code>From the comparison, one might find the result is different from the one given by K.J. Bathe&#39;s book. </code></pre>
+<p>The discreprency stems from the difference of procedures for calculating stress.</p>
+
+	
+
+	
+
+</article>
+
+
+
+
+	<article>
+	
 		<h1><a href="/2018/03/29/demo/">A picture and a story</a></h1>
 	
 	<div class="article__infos">
