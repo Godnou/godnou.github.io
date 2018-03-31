@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-03-31T03:08:17.000Z</updated>
+  <updated>2018-03-31T03:09:24.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://Godnou.github.io/2018/03/30/Abaqus_standard/"/>
     <id>http://Godnou.github.io/2018/03/30/Abaqus_standard/</id>
     <published>2018-03-31T02:26:25.000Z</published>
-    <updated>2018-03-31T03:08:17.000Z</updated>
+    <updated>2018-03-31T03:09:24.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I try to use a very simple example to demonstrate how abaqus/standard works, i.e. the algorithm used in Abaqus. Following is an example to verify the principle.</p><ol style="list-style-type: decimal"><li><p>A C3D8 brick is developed in Matlab. A single element 2x2x2 cm^3 is tested.</p></li><li><p>Linear elastic material model is used in the element. By taking large displacement into consideration, more accurately speaking, the material model is called hypoelasticity.</p></li><li><p>The updated Lagrange format is used in the algorithm.</p></li><li><p>Comparison:</p></li></ol><div class="figure"><figure class="figure"><img src="/imag/demo3.png"></figure></div><p>From the comparison, one might find the result is different from the one given by K.J. Bathe's book. The discreprency stems from the difference of procedures for calculating stress.</p>]]></content>
+    <content type="html"><![CDATA[<p>I try to use a very simple example to demonstrate how abaqus/standard works, i.e. the algorithm used in Abaqus. Following is an example to verify the principle.</p><ol style="list-style-type: decimal"><li><p>A C3D8 brick is developed in Matlab. A single element 2x2x2 cm^3 is tested.</p></li><li><p>Linear elastic material model is used in the element. By taking large displacement into consideration, more accurately speaking, the material model is called hypoelasticity.</p></li><li><p>The updated Lagrange format is used in the algorithm.</p></li><li><p>Comparison:</p></li></ol><div class="figure"><figure class="figure"><img src="/imag/demo3.png"></figure></div><p>From the comparison, one might find the result is different from the one given by K.J. Bathe's book. The discreprency stems from the difference of procedures to approximate/calculate stress.</p>]]></content>
     
     <summary type="html">
     
