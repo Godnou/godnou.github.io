@@ -28,7 +28,7 @@
 
 	<article>
 	
-		<h1><a href="/2018/03/30/Abaqus_standard/">How abaqus/standard works</a></h1>
+		<h1><a href="/2018/03/30/Abaqus_standard/">A home-made nonlinear FEM code</a></h1>
 	
 	<div class="article__infos">
 		<span class="article__date">2018-03-30</span><br />
@@ -43,10 +43,10 @@
 	
 
 	
-		<p>I try to use a very simple example to demonstrate how abaqus/standard works, i.e. the performance of the core algorithm used in Abaqus/standard. Following is the example.</p>
+		<p>I try to compare my nonlinear FEM code with Abaqus/standard. Following is an example.</p>
 <ol style="list-style-type: decimal">
-<li><p>An implicit solver and a C3D8 brick are developed in Matlab. A single element 2x2x2 cm^3 is tested.</p></li>
-<li><p>Linear elastic material model is used in the element. By taking large displacement into consideration, more accurately speaking, the material model is called hypoelasticity.</p></li>
+<li><p>An implicit solver and a C3D8 brick are developed in Matlab. A single element (2x2x2 cm^3) is tested with one facet fixed and the opposite facet subject to extension or compression forces</p></li>
+<li><p>Hypoelasticity is assumed in the element.</p></li>
 <li><p>The updated Lagrange format is used in the algorithm.</p></li>
 <li><p>Comparison:</p></li>
 </ol>
@@ -54,7 +54,7 @@
 <figure class="figure"><img src="/imag/demo3.png"></figure>
 
 </div>
-<p>From the comparison, one might find the result is different from the one given in K.J. Bathe's book. The discreprancy stems from the difference of procedures to approximate/calculate stress.</p>
+<p>From the comparison, one might find the result is different from the one given in K.J. Bathe's book or ADINA. The discreprancy stems from the different procedures to approximate/calculate stress.</p>
 
 	
 
