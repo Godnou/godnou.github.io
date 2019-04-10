@@ -23,7 +23,7 @@
     <published>2018-03-30T02:43:04.000Z</published>
     <updated>2019-04-10T22:29:56.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was at USC.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><p><figure class="figure"><img src="/imag/structure.png" alt=""></figure></p>]]></content>
+    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was at USC.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div>]]></content>
     
     <summary type="html">
     
@@ -45,16 +45,15 @@
     <link href="http://Godnou.github.io/2018/03/17/Permeability%20for%20fluid%20flow/"/>
     <id>http://Godnou.github.io/2018/03/17/Permeability for fluid flow/</id>
     <published>2018-03-17T18:15:09.000Z</published>
-    <updated>2019-04-10T22:10:38.000Z</updated>
+    <updated>2019-04-10T22:36:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><p><figure class="figure"><img src="/imag/per1.png" alt=""></figure></p><p>Compression effect on the permeability of the structure:</p><p><figure class="figure"><img src="/imag/per2.png" alt=""></figure></p>]]></content>
+    <content type="html"><![CDATA[<pre><code>An Octet-truss structure is designed as an representative volume element in a fluid structural interaction analysis, where the inverse domain is meshed for the fluid field.</code></pre><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><pre><code>The following figure shows the compression effect on the homogenized permeability of the structure.</code></pre><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:&lt;/p&gt;
-
+        &lt;pre&gt;&lt;code&gt;An Octet-truss structure is designed as an representative volume element in a fluid structural interaction analysis, where the in
       
     
     </summary>
@@ -71,15 +70,15 @@
     <published>2018-03-16T14:02:58.000Z</published>
     <updated>2019-04-10T22:27:54.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A Film-substrate system is subject to compression. </p><p>The film is attached to a soft substrate with complex architecture:</p><p><figure class="figure"><img src="/imag/buckling1.png" alt=""></figure></p><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><p><figure class="figure"><img src="/imag/buckling2.png" alt=""></figure></p>]]></content>
+    <content type="html"><![CDATA[<p>A Film-substrate system is subject to compression.</p><p>The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;A Film-substrate system is subject to compression. &lt;/p&gt;
+        &lt;p&gt;A Film-substrate system is subject to compression.&lt;/p&gt;
 &lt;p&gt;The film is attached to a soft substrate with complex architecture:&lt;/p&gt;
-&lt;p&gt;&lt;fi
+&lt;div cl
       
     
     </summary>
@@ -96,15 +95,18 @@
     <published>2018-03-15T14:06:26.000Z</published>
     <updated>2019-04-10T22:12:15.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><p><figure class="figure"><img src="/imag/2.png" alt=""></figure></p><p>A sample is deformed subjet to a magnetic field.</p><p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A sample is deformed subjet to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;A schematic showing the setup of a test:&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;A sample is deforme
+&lt;div class=&quot;figure&quot;&gt;
+&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;A sa
       
     
     </summary>
@@ -121,15 +123,15 @@
     <published>2018-03-13T16:35:47.000Z</published>
     <updated>2018-03-15T14:06:03.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><p><figure class="figure"><img src="/imag/layer.png" alt=""></figure></p><p>Simple demo.</p>]]></content>
+    <content type="html"><![CDATA[<p>Simulation of the forming of a layer during 3D printing</p><div class="figure"><figure class="figure"><img src="/imag/layer.png"></figure></div><p>Simple demo.</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Simulation of the forming of a layer during 3D printing&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/layer.png&quot;&gt;&lt;/figu
       
     
     </summary>
