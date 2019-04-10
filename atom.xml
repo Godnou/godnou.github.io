@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2019-04-10T22:29:56.000Z</updated>
+  <updated>2019-04-10T22:49:39.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://Godnou.github.io/2018/03/29/A%20hierarichal%20structure/"/>
     <id>http://Godnou.github.io/2018/03/29/A hierarichal structure/</id>
     <published>2018-03-30T02:43:04.000Z</published>
-    <updated>2019-04-10T22:29:56.000Z</updated>
+    <updated>2019-04-10T22:49:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was at USC.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div>]]></content>
+    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was at USC. It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;The pictures below were taken in Apr. 2016 when I was at USC.&lt;/p&gt;
-&lt;p&gt;It can be appreciated purely from a aesthetical perspective without 
+        &lt;p&gt;The pictures below were taken in Apr. 2016 when I was at USC. It can be appreciated purely from a aesthetical perspective without any rat
       
     
     </summary>
@@ -92,9 +91,9 @@
     <link href="http://Godnou.github.io/2018/03/15/Ferromagnetic%20elastomer%20lattice/"/>
     <id>http://Godnou.github.io/2018/03/15/Ferromagnetic elastomer lattice/</id>
     <published>2018-03-15T14:06:26.000Z</published>
-    <updated>2019-04-10T22:12:15.000Z</updated>
+    <updated>2019-04-10T22:49:06.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A sample is deformed subjet to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div>]]></content>
     
     <summary type="html">
     
@@ -105,7 +104,7 @@
 &lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
 
 &lt;/div&gt;
-&lt;p&gt;A sa
+&lt;p&gt;A fe
       
     
     </summary>
