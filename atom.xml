@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2019-04-10T23:00:34.000Z</updated>
+  <updated>2019-04-10T23:23:26.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://Godnou.github.io/2018/03/29/A%20hierarichal%20structure/"/>
     <id>http://Godnou.github.io/2018/03/29/A hierarichal structure/</id>
     <published>2018-03-30T02:43:04.000Z</published>
-    <updated>2019-04-10T23:00:34.000Z</updated>
+    <updated>2019-04-10T23:23:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was pursuing a PhD at the University of Southern California. It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div>]]></content>
+    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was pursuing a PhD at the University of Southern California. It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><p><figure class="figure"><img src="/imag/structure.png" alt=""></figure></p><p><a href="https://pubs.rsc.org/en/content/articlehtml/2017/sm/c7sm01435j" title="Stretchable 3D lattice conductors" target="_blank" rel="noopener">I’m an inline-style link with title</a></p>]]></content>
     
     <summary type="html">
     
@@ -46,13 +46,13 @@
     <published>2018-03-17T18:15:09.000Z</published>
     <updated>2019-04-10T23:02:43.000Z</updated>
     
-    <content type="html"><![CDATA[<p>An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural interaction analysis, where the inverse domain is meshed for the fluid field.</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div>]]></content>
+    <content type="html"><![CDATA[<p>An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural<br>interaction analysis, where the inverse domain is meshed for the fluid field.</p><p><figure class="figure"><img src="/imag/per1.png" alt=""></figure></p><p><figure class="figure"><img src="/imag/per2.png" alt=""></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural interaction analysis, where the 
+        &lt;p&gt;An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural&lt;br&gt;interaction analysis, where t
       
     
     </summary>
@@ -69,14 +69,14 @@
     <published>2018-03-16T14:02:58.000Z</published>
     <updated>2019-04-10T22:43:48.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A Film-substrate system is subject to compression, where the film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div>]]></content>
+    <content type="html"><![CDATA[<p>A Film-substrate system is subject to compression, where the film is attached to a soft substrate<br>with complex architecture:</p><p><figure class="figure"><img src="/imag/buckling1.png" alt=""></figure></p><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><p><figure class="figure"><img src="/imag/buckling2.png" alt=""></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;A Film-substrate system is subject to compression, where the film is attached to a soft substrate with complex architecture:&lt;/p&gt;
-&lt;div cla
+        &lt;p&gt;A Film-substrate system is subject to compression, where the film is attached to a soft substrate&lt;br&gt;with complex architecture:&lt;/p&gt;
+&lt;p&gt;&lt;f
       
     
     </summary>
@@ -93,18 +93,15 @@
     <published>2018-03-15T14:06:26.000Z</published>
     <updated>2019-04-10T22:52:37.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A schematic showing the setup for testing:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup for testing:</p><p><figure class="figure"><img src="/imag/2.png" alt=""></figure></p><p>A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p><p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;A schematic showing the setup for testing:&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
-
-&lt;/div&gt;
-&lt;p&gt;A 
+&lt;p&gt;&lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;A ferromagnetic e
       
     
     </summary>
