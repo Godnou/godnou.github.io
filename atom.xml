@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2018-04-01T21:36:57.000Z</updated>
+  <updated>2019-04-10T22:25:46.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -17,45 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>A home-made nonlinear FEM code</title>
-    <link href="http://Godnou.github.io/2018/03/30/Abaqus_standard/"/>
-    <id>http://Godnou.github.io/2018/03/30/Abaqus_standard/</id>
-    <published>2018-03-31T02:26:25.000Z</published>
-    <updated>2018-04-01T21:36:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>I try to compare my nonlinear FEM code with Abaqus/standard. Following is an example.</p><ol style="list-style-type: decimal"><li><p>An implicit solver and a C3D8 brick are developed in Matlab. A single element (2x2x2 cm^3) is tested with one facet fixed and the opposite facet subject to extension or compression forces</p></li><li><p>Hypoelasticity is assumed in the element.</p></li><li><p>The updated Lagrange format is used in the algorithm.</p></li><li><p>Comparison:</p></li></ol><div class="figure"><figure class="figure"><img src="/imag/demo3.png"></figure></div><p>From the comparison, one might find the result is different from the one given in K.J. Bathe's book or ADINA. The discreprancy stems from the different procedures to approximate/calculate stress.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;I try to compare my nonlinear FEM code with Abaqus/standard. Following is an example.&lt;/p&gt;
-&lt;ol style=&quot;list-style-type: decimal&quot;&gt;
-&lt;li&gt;&lt;p&gt;An
-      
-    
-    </summary>
-    
-    
-      <category term="FEM" scheme="http://Godnou.github.io/tags/FEM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>A picture and a story</title>
-    <link href="http://Godnou.github.io/2018/03/29/demo/"/>
-    <id>http://Godnou.github.io/2018/03/29/demo/</id>
+    <title>A hierarichical elastomer lattice</title>
+    <link href="http://Godnou.github.io/2018/03/29/A%20hierarichal%20structure/"/>
+    <id>http://Godnou.github.io/2018/03/29/A hierarichal structure/</id>
     <published>2018-03-30T02:43:04.000Z</published>
-    <updated>2018-03-31T03:22:19.000Z</updated>
+    <updated>2019-04-10T22:25:46.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div><p>Related work was done in July. 2016. However, the publication was delayed until July. 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was at USC.</p><p>It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;The pictures below were taken in Apr. 2016.&lt;/p&gt;
-&lt;p&gt;It can be appreciated purely from a aesthetical perspective without any rational pursu
+        &lt;p&gt;The pictures below were taken in Apr. 2016 when I was at USC.&lt;/p&gt;
+&lt;p&gt;It can be appreciated purely from a aesthetical perspective without 
       
     
     </summary>
@@ -70,9 +45,9 @@
     <link href="http://Godnou.github.io/2018/03/17/Permeability%20for%20fluid%20flow/"/>
     <id>http://Godnou.github.io/2018/03/17/Permeability for fluid flow/</id>
     <published>2018-03-17T18:15:09.000Z</published>
-    <updated>2018-03-17T19:24:04.000Z</updated>
+    <updated>2019-04-10T22:10:38.000Z</updated>
     
-    <content type="html"><![CDATA[<p>An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><p>Compression effect on the permeability of the structure:</p><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div><p>Results:</p><div class="figure"><figure class="figure"><img src="/imag/per3.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>An Octet-truss structure as an RVE and its inverse structure with mesh for multi-scale analysis of the fluid structural interaction:</p><div class="figure"><figure class="figure"><img src="/imag/per1.png"></figure></div><p>Compression effect on the permeability of the structure:</p><div class="figure"><figure class="figure"><img src="/imag/per2.png"></figure></div>]]></content>
     
     <summary type="html">
     
@@ -94,17 +69,17 @@
     <link href="http://Godnou.github.io/2018/03/16/Thin%20film%20buckling/"/>
     <id>http://Godnou.github.io/2018/03/16/Thin film buckling/</id>
     <published>2018-03-16T14:02:58.000Z</published>
-    <updated>2018-03-17T18:16:21.000Z</updated>
+    <updated>2019-04-10T22:27:54.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div><p>The work and related experimental work were done in 2017.</p>]]></content>
+    <content type="html"><![CDATA[<p>A Film-substrate system is subject to compression.</p><p>The film is attached to a soft substrate with complex architecture:</p><div class="figure"><figure class="figure"><img src="/imag/buckling1.png"></figure></div><p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p><div class="figure"><figure class="figure"><img src="/imag/buckling2.png"></figure></div>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Film-substrate system under compression. The film is attached to a soft substrate with complex architecture:&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;fi
+        &lt;p&gt;A Film-substrate system is subject to compression.&lt;/p&gt;
+&lt;p&gt;The film is attached to a soft substrate with complex architecture:&lt;/p&gt;
+&lt;div cl
       
     
     </summary>
@@ -119,9 +94,9 @@
     <link href="http://Godnou.github.io/2018/03/15/Ferromagnetic%20elastomer%20lattice/"/>
     <id>http://Godnou.github.io/2018/03/15/Ferromagnetic elastomer lattice/</id>
     <published>2018-03-15T14:06:26.000Z</published>
-    <updated>2018-03-17T18:25:37.000Z</updated>
+    <updated>2019-04-10T22:12:15.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A real sample (8x8x8 mm^3 cubic)and the test result:</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>The work and other relevant work were done in 2016.</p>]]></content>
+    <content type="html"><![CDATA[<p>A schematic showing the setup of a test:</p><div class="figure"><figure class="figure"><img src="/imag/2.png"></figure></div><p>A sample is deformed subjet to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div>]]></content>
     
     <summary type="html">
     
@@ -132,7 +107,7 @@
 &lt;figure class=&quot;figure&quot;&gt;&lt;img src=&quot;/imag/2.png&quot;&gt;&lt;/figure&gt;
 
 &lt;/div&gt;
-&lt;p&gt;A re
+&lt;p&gt;A sa
       
     
     </summary>
