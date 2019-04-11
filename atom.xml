@@ -41,10 +41,10 @@
   
   <entry>
     <title>A hierarchical elastomer lattice</title>
-    <link href="http://Godnou.github.io/2018/03/29/A%20hierarichal%20structure/"/>
-    <id>http://Godnou.github.io/2018/03/29/A hierarichal structure/</id>
-    <published>2018-03-30T02:43:04.000Z</published>
-    <updated>2019-04-11T00:04:59.000Z</updated>
+    <link href="http://Godnou.github.io/2019/04/09/A%20hierarichal%20structure/"/>
+    <id>http://Godnou.github.io/2019/04/09/A hierarichal structure/</id>
+    <published>2019-04-09T14:20:04.000Z</published>
+    <updated>2019-04-11T03:54:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>The pictures below were taken in Apr. 2016 when I was pursuing a PhD at the University of Southern California. It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p><div class="figure"><figure class="figure"><img src="/imag/structure.png"></figure></div><p>A research paper is published based on this. Reference: <a href="https://pubs.rsc.org/en/content/articlehtml/2017/sm/c7sm01435j" title="Stretchable 3D lattice conductors" target="_blank" rel="noopener">Stretchable 3D lattice conductors</a></p>]]></content>
     
@@ -53,6 +53,29 @@
       
       
         &lt;p&gt;The pictures below were taken in Apr. 2016 when I was pursuing a PhD at the University of Southern California. It can be appreciated pure
+      
+    
+    </summary>
+    
+    
+      <category term="3DPrinting" scheme="http://Godnou.github.io/tags/3DPrinting/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ferromagnetic elastomer lattices</title>
+    <link href="http://Godnou.github.io/2019/04/08/Ferromagnetic%20elastomer%20lattice/"/>
+    <id>http://Godnou.github.io/2019/04/08/Ferromagnetic elastomer lattice/</id>
+    <published>2019-04-09T02:02:10.000Z</published>
+    <updated>2019-04-11T03:54:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field. This is one of my favorite research projects during the time I was studying at the USC.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>A theoretical analysis on the phenomena is given as following: <a href="/files/Magnetic_field_Oct_11_2016.pdf">'Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam'</a></p><p>I left the USC in July 2017. Unfortunately, I did not have time to finish the rest of this research project and many others.</p><p>Anyway, an excellent work based on the ferromagnetic elasomers is finally done by the successors. Reference: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201706348" title="Magnetoactive acoustic metamaterials" target="_blank" rel="noopener">Magnetoactive acoustic metamaterials</a> (Big congrats!)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field. This is one of my favorite research projects durin
       
     
     </summary>
@@ -106,29 +129,6 @@
     
     
       <category term="FEM" scheme="http://Godnou.github.io/tags/FEM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ferromagnetic elastomer lattices</title>
-    <link href="http://Godnou.github.io/2018/03/15/Ferromagnetic%20elastomer%20lattice/"/>
-    <id>http://Godnou.github.io/2018/03/15/Ferromagnetic elastomer lattice/</id>
-    <published>2018-03-15T14:06:26.000Z</published>
-    <updated>2019-04-11T03:48:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field. This is one of my favorite research projects during the time I was studying at the USC.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>A theoretical analysis on the phenomena is given as following: <a href="/files/Magnetic_field_Oct_11_2016.pdf">'Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam'</a></p><p>I left the USC in July 2017. Unfortunately, I did not have time to finish the rest of this research project and many others.</p><p>Anyway, an excellent work based on the ferromagnetic elasomers is finally done by the successors. Reference: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201706348" title="Magnetoactive acoustic metamaterials" target="_blank" rel="noopener">Magnetoactive acoustic metamaterials</a> (Big congrats!)</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;A ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field. This is one of my favorite research projects durin
-      
-    
-    </summary>
-    
-    
-      <category term="3DPrinting" scheme="http://Godnou.github.io/tags/3DPrinting/"/>
     
   </entry>
   
