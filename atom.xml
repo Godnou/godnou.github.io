@@ -132,28 +132,4 @@
     
   </entry>
   
-  <entry>
-    <title>Hello</title>
-    <link href="http://Godnou.github.io/2018/03/12/Hello/"/>
-    <id>http://Godnou.github.io/2018/03/12/Hello/</id>
-    <published>2018-03-12T16:59:10.000Z</published>
-    <updated>2018-03-12T16:59:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>The beautiful world!</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;The beautiful world!&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="Hi" scheme="http://Godnou.github.io/tags/Hi/"/>
-    
-  </entry>
-  
 </feed>
