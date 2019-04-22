@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2019-04-22T06:42:45.000Z</updated>
+  <updated>2019-04-22T06:46:56.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://Godnou.github.io/2019/04/22/MMASC/"/>
     <id>http://Godnou.github.io/2019/04/22/MMASC/</id>
     <published>2019-04-23T02:02:10.000Z</published>
-    <updated>2019-04-22T06:42:45.000Z</updated>
+    <updated>2019-04-22T06:46:56.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Computational multiscale multiphysics analysis of soft composites seems for me to be an interesting topic. Out of my personal interest, a finite element package is independently developt by me. The project was started in Dec. 2018. The so-called Nested finite element method(Nested FEM) is used in the calculation. Our calculation capability can demonstrate the effect of complex material heterogeneity ranging from different spatial scales. Herein, we use the dielectric elastomer composites (DECs) as an example(see the following figure).</p><div class="figure"><figure class="figure"><img src="/imag/NestFEM.png"></figure></div><p>Caption: (a) showing the initial configuration of a bulk DEC brick. (b) showing the deformed configuration of the DEC brick subject to an electric field. (c) showing the heterogenerous structure of the DEC brick, the dielectric permittivities are different in the red regions (inclusion) and the green region (matrix). (d) showing the profile of the internal facet. (e) For a single phase material, Nested FEM (inset showing the unit cell) achieves a consistent solution with the analytical one. (f) For a two phase material, the dielectric permittivity of the inclusions is #x larger than the one of the matrix (inset showing the unit cell). The limit point, i.e, the largest voltage load, is decreased as the dielectric permittivity increases. Both Nested FEM and direct numerical simulation confirm the same result.</p><p>If one is also interested in this project, you are welcomed to join in developing the package.</p>]]></content>
+    <content type="html"><![CDATA[<p>Computational multiscale multiphysics analysis of soft composites seems for me to be an interesting topic. Out of my personal interest, a finite element package is independently developt by me. The project was started in Dec. 2018. The so-called Nested finite element method(Nested FEM) is used in the calculation. Our calculation capability can demonstrate the effect of complex material heterogeneity ranging from different spatial scales. Herein, we use the dielectric elastomer composites (DECs) as an example(see the following figure).</p><div class="figure"><figure class="figure"><img src="/imag/NestFEM.png"></figure></div><p>Caption: (a) showing the initial configuration of a bulk DEC brick. (b) showing the deformed configuration of the DEC brick subject to an electric field. (c) showing the heterogenerous structure of the DEC brick, the dielectric permittivities are different in the red regions (inclusion) and the green region (matrix). (d) showing the profile of the internal facet. (e) For a single phase material, Nested FEM (inset showing the unit cell) achieves a consistent solution with the analytical one. (f) For a two phase material, the dielectric permittivity of the inclusions is #x larger than the one of the matrix (inset showing the unit cell). The limit point, i.e, the largest voltage load, is decreased as the dielectric permittivity of the inclusions increases. Both Nested FEM and direct numerical simulation confirm the same result.</p><p>If one is also interested in this project, you are welcomed to join in developing the package.</p>]]></content>
     
     <summary type="html">
     
