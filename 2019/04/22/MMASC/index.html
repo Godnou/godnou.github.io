@@ -5,7 +5,7 @@
 	<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
-	<title>Welcome</title>
+	<title>Computational multiscale multiphysics analysis of soft composites | Welcome</title>
 	<link rel="stylesheet" href="/css/style.css" />
 	
       <link rel="alternate" href="/atom.xml" title="Welcome" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
@@ -22,70 +22,39 @@
 	</header>
 
 	<main>
-		<h1>Archive</h1>
-
-
-
-
-
-<ul class="archive">
+		<article>
 	
+		<h1>Computational multiscale multiphysics analysis of soft composites</h1>
 	
-		<li class="archive__year archive__expendable ">
-			<span>2019</span>
-			<ul>
-				
-					<li class="archive__month archive__expendable">
-						<span>April</span>
-						<ul>
-							
-								<li class="archive__entry"><a href="/2019/04/22/MMASC/">Computational multiscale multiphysics analysis of soft composites</a></li>
-							
-								<li class="archive__entry"><a href="/2019/04/10/Elastomer lattice/">Elastomer lattices</a></li>
-							
-								<li class="archive__entry"><a href="/2019/04/09/A hierarichal structure/">A hierarchical elastomer lattice</a></li>
-							
-								<li class="archive__entry"><a href="/2019/04/08/Ferromagnetic elastomer lattice/">Ferromagnetic elastomer lattices</a></li>
-							
-						</ul>
-					</li>
-
-				
-			</ul>
-		</li>
+	<div class="article__infos">
+		<span class="article__date">2019-04-22</span><br />
 		
-	
-		<li class="archive__year archive__expendable archive__expendable_collapsed">
-			<span>2018</span>
-			<ul>
-				
-					<li class="archive__month archive__expendable">
-						<span>March</span>
-						<ul>
-							
-								<li class="archive__entry"><a href="/2018/03/17/Permeability for fluid flow/">Permeability for fluid structural interaction</a></li>
-							
-								<li class="archive__entry"><a href="/2018/03/16/Thin film buckling/">Thin film buckling</a></li>
-							
-						</ul>
-					</li>
-
-				
-			</ul>
-		</li>
 		
-	
-</ul>
+			<span class="article__tags">
+			  	<a class="article__tag-link" href="/tags/FEM/">FEM</a>
+			</span>
+		
+	</div>
 
-<script>
-	const expandables = document.querySelectorAll('.archive__expendable')
-	for(let i = 0; i < expandables.length; i++) {
-		expandables[i].addEventListener('click', (e) => {
-			e.stopPropagation()
-			expandables[i].classList.toggle('archive__expendable_collapsed')
-		})
-	}
-</script>
+	
+
+	
+		<p>Computational multiscale multiphysics analysis of soft composites seems for me to be an interesting topic. Out of my personal interest, a finite element package is independently developt by me. The project was started in Dec. 2018. The so-called Nested finite element method(Nested FEM) is used in the calculation. Our calculation capability can demonstrate the effect of complex material heterogeneity ranging from different spatial scales. Herein, we use the dielectric elastomer composites (DECs) as an example(see the following figure).</p>
+<div class="figure">
+<figure class="figure"><img src="/imag/NestFEM.png"></figure>
+
+</div>
+<p>Caption: (a) showing the initial configuration of a bulk DEC brick. (b) showing the deformed configuration of the DEC brick subject to an electric field. (c) showing the heterogenerous structure of the DEC brick, the dielectric permittivities are different in the red regions (inclusion) and the green region (matrix). (d) showing the profile of the internal facet. (e) For a single phase material, Nested FEM (inset showing the unit cell) achieves a consistent solution with the analytical one. (f) For a two phase material, the dielectric permittivity of the inclusions is #x larger than the one of the matrix (inset showing the unit cell). The limit point, i.e, the largest voltage load, is decreased as the dielectric permittivity increases. Both Nested FEM and direct numerical simulation confirm the same result.</p>
+<p>If one is also interested in this project, you are welcomed to join in developing the package.</p>
+
+	
+
+	
+		<span class="different-posts"><a href="/2019/04/22/MMASC/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
+
+	
+
+</article>
 
 	</main>
 
