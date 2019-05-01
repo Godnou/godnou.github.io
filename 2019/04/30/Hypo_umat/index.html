@@ -5,7 +5,7 @@
 	<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
-	<title>Elastomer lattices | Welcome</title>
+	<title>On coding a general user material subroutine | Welcome</title>
 	<link rel="stylesheet" href="/css/style.css" />
 	
       <link rel="alternate" href="/atom.xml" title="Welcome" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
@@ -24,14 +24,14 @@
 	<main>
 		<article>
 	
-		<h1>Elastomer lattices</h1>
+		<h1>On coding a general user material subroutine</h1>
 	
 	<div class="article__infos">
-		<span class="article__date">2019-04-10</span><br />
+		<span class="article__date">2019-04-30</span><br />
 		
 		
 			<span class="article__tags">
-			  	<a class="article__tag-link" href="/tags/3DPrinting/">3DPrinting</a>
+			  	<a class="article__tag-link" href="/tags/FEM/">FEM</a>
 			</span>
 		
 	</div>
@@ -39,17 +39,19 @@
 	
 
 	
-		<p>The first project that I had spent several months to finish in late 2015 when I was pursuing a PhD at the University of Southern California. In order to evaluate the material properties of the architected metamaterials with different lattice structures, they are designed in a CAD software and fabricated by a 3D printer.</p>
+		<p>As a tutorial, this post shows a simple and extensible user material subroutine (UMAT), where large deformation is considered. For simplicity, the hopyelasticiy is adopted as the material law. The robustness and correctness of the general UMAT is demonstrated in two examples: one is uniaxial extention of a single element; the other is triaxial compression of a single element.</p>
 <div class="figure">
-<figure class="figure"><img src="/imag/Elastomer_lattice.png"></figure>
+<figure class="figure"><img src="/imag/hypo.png"></figure>
 
 </div>
-<p>A research paper is published based on this. Reference: <a href="https://www.nature.com/articles/srep34147" title="Highly-stretchable 3D-architected mechanical metamaterials" target="_blank" rel="noopener">Highly-stretchable 3D-architected mechanical metamaterials</a></p>
+<p>Caption: (a) uniaxial extension test of a single element (Force v.s. extention). (b) triaxial compression test of a single element (Volume strain v.s. compression). Both examples show the consistent results with one obtained by the built-in subroutine.</p>
+<p>The source code can be found here: <a href="/files/hypoelasticity.for">Hypoelasticity</a></p>
+<p>Detailed comments are added in the source code for explanation. I hope every beginner can learn something from the source code. The framework designed in the source code can be easily applied to other material laws, such as hyperelasticity, plasticity and viscoelasticity.</p>
 
 	
 
 	
-		<span class="different-posts"><a href="/2019/04/10/Elastomer lattice/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
+		<span class="different-posts"><a href="/2019/04/30/Hypo_umat/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
 
 	
 

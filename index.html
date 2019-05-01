@@ -28,6 +28,41 @@
 
 	<article>
 	
+		<h1><a href="/2019/04/30/Hypo_umat/">On coding a general user material subroutine</a></h1>
+	
+	<div class="article__infos">
+		<span class="article__date">2019-04-30</span><br />
+		
+		
+			<span class="article__tags">
+			  	<a class="article__tag-link" href="/tags/FEM/">FEM</a>
+			</span>
+		
+	</div>
+
+	
+
+	
+		<p>As a tutorial, this post shows a simple and extensible user material subroutine (UMAT), where large deformation is considered. For simplicity, the hopyelasticiy is adopted as the material law. The robustness and correctness of the general UMAT is demonstrated in two examples: one is uniaxial extention of a single element; the other is triaxial compression of a single element.</p>
+<div class="figure">
+<figure class="figure"><img src="/imag/hypo.png"></figure>
+
+</div>
+<p>Caption: (a) uniaxial extension test of a single element (Force v.s. extention). (b) triaxial compression test of a single element (Volume strain v.s. compression). Both examples show the consistent results with one obtained by the built-in subroutine.</p>
+<p>The source code can be found here: <a href="/files/hypoelasticity.for">Hypoelasticity</a></p>
+<p>Detailed comments are added in the source code for explanation. I hope every beginner can learn something from the source code. The framework designed in the source code can be easily applied to other material laws, such as hyperelasticity, plasticity and viscoelasticity.</p>
+
+	
+
+	
+
+</article>
+
+
+
+
+	<article>
+	
 		<h1><a href="/2019/04/22/MMASC/">Computational multiscale multiphysics analysis of soft composites</a></h1>
 	
 	<div class="article__infos">
@@ -44,9 +79,12 @@
 
 	
 		<p>Computational multiscale multiphysics analysis of soft composites seems for me to be an interesting topic, where time-dependent material nonlinearity, large deformations, multiphysics coulping and multiscale information passing are accounted for. Out of my personal interest, a finite element package is developt. The project was started in Dec. 2018. It is now still in development. The so-called Nested finite element method(Nested FEM) is used in the calculation. Our calculation capability can demonstrate the effect of complex material heterogeneity ranging from different spatial scales. Herein, we use the dielectric elastomer composites (DECs) as an example(see the following figure).</p>
-<p><figure class="figure"><img src="/imag/NestFEM.png" alt=""></figure></p>
+<div class="figure">
+<figure class="figure"><img src="/imag/NestFEM.png"></figure>
+
+</div>
 <p>Caption: (a) showing the initial configuration of a bulk DEC brick. (b) showing the deformed configuration of the DEC brick subject to an electric field. (c) showing the heterogenerous structure of the DEC brick, the dielectric permittivities are different in the red regions (inclusion) and the green region (matrix). (d) showing the profile of an intersection. (e) For a single phase material, Nested FEM (inset showing the unit cell) achieves a consistent solution with the analytical one. (f) For a two phase material, the dielectric permittivity of the inclusions is x#(#=1,2,4,6,8) times larger than the one of the matrix (inset showing the unit cell). The limit point, i.e, the largest voltage load, is decreased as the dielectric permittivity of the inclusions increases. Both Nested FEM and direct numerical simulation confirm the same result.</p>
-<p>If one is also interested in this project, you are welcomed to join in developing the package. </p>
+<p>If one is also interested in this project, you are welcomed to join in developing the package.</p>
 
 	
 
@@ -75,8 +113,11 @@
 
 	
 		<p>The first project that I had spent several months to finish in late 2015 when I was pursuing a PhD at the University of Southern California. In order to evaluate the material properties of the architected metamaterials with different lattice structures, they are designed in a CAD software and fabricated by a 3D printer.</p>
-<p><figure class="figure"><img src="/imag/Elastomer_lattice.png" alt=""></figure></p>
-<p>A research paper is published based on this.<br>Reference: <a href="https://www.nature.com/articles/srep34147" title="Highly-stretchable 3D-architected mechanical metamaterials" target="_blank" rel="noopener">Highly-stretchable 3D-architected mechanical metamaterials</a></p>
+<div class="figure">
+<figure class="figure"><img src="/imag/Elastomer_lattice.png"></figure>
+
+</div>
+<p>A research paper is published based on this. Reference: <a href="https://www.nature.com/articles/srep34147" title="Highly-stretchable 3D-architected mechanical metamaterials" target="_blank" rel="noopener">Highly-stretchable 3D-architected mechanical metamaterials</a></p>
 
 	
 
@@ -105,8 +146,11 @@
 
 	
 		<p>The pictures below were taken in Apr. 2016. It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p>
-<p><figure class="figure"><img src="/imag/structure.png" alt=""></figure></p>
-<p>A research paper is published based on this.<br>Reference: <a href="https://pubs.rsc.org/en/content/articlehtml/2017/sm/c7sm01435j" title="Stretchable 3D lattice conductors" target="_blank" rel="noopener">Stretchable 3D lattice conductors</a></p>
+<div class="figure">
+<figure class="figure"><img src="/imag/structure.png"></figure>
+
+</div>
+<p>A research paper is published based on this. Reference: <a href="https://pubs.rsc.org/en/content/articlehtml/2017/sm/c7sm01435j" title="Stretchable 3D lattice conductors" target="_blank" rel="noopener">Stretchable 3D lattice conductors</a></p>
 
 	
 
@@ -135,8 +179,11 @@
 
 	
 		<p>This is one of my favorite research projects during the time I was studying at the USC. I spent a lot of time and effort on this. The following experimental picture shows that a ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p>
-<p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p>
-<p>A rough theoretical analysis on the phenomena was given by me in 2016. The PDF file can be found here:<br><a href="/files/Magnetic_field_Oct_11_2016.pdf">‘Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam’</a></p>
+<div class="figure">
+<figure class="figure"><img src="/imag/1.png"></figure>
+
+</div>
+<p>A rough theoretical analysis on the phenomena was given by me in 2016. The PDF file can be found here: <a href="/files/Magnetic_field_Oct_11_2016.pdf">'Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam'</a></p>
 <p>I left the USC in July 2017. Unfortunately, I did not have time to finish the rest of this research project and many others.</p>
 <p>Anyway, an excellent work based on the ferromagnetic elasomers was finally done by the successors. Reference: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201706348" title="Magnetoactive acoustic metamaterials" target="_blank" rel="noopener">Magnetoactive acoustic metamaterials</a> (Big congrats!)</p>
 
@@ -166,9 +213,15 @@
 	
 
 	
-		<p>An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural<br>interaction analysis, where the inverse domain is meshed for the fluid field.</p>
-<p><figure class="figure"><img src="/imag/per1.png" alt=""></figure></p>
-<p><figure class="figure"><img src="/imag/per2.png" alt=""></figure></p>
+		<p>An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural interaction analysis, where the inverse domain is meshed for the fluid field.</p>
+<div class="figure">
+<figure class="figure"><img src="/imag/per1.png"></figure>
+
+</div>
+<div class="figure">
+<figure class="figure"><img src="/imag/per2.png"></figure>
+
+</div>
 
 	
 
@@ -196,10 +249,16 @@
 	
 
 	
-		<p>A Film-substrate system is subject to compression, where the film is attached to a soft substrate<br>with complex architecture:</p>
-<p><figure class="figure"><img src="/imag/buckling1.png" alt=""></figure></p>
+		<p>A Film-substrate system is subject to compression, where the film is attached to a soft substrate with complex architecture:</p>
+<div class="figure">
+<figure class="figure"><img src="/imag/buckling1.png"></figure>
+
+</div>
 <p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p>
-<p><figure class="figure"><img src="/imag/buckling2.png" alt=""></figure></p>
+<div class="figure">
+<figure class="figure"><img src="/imag/buckling2.png"></figure>
+
+</div>
 
 	
 
