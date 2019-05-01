@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2019-05-01T02:13:12.000Z</updated>
+  <updated>2019-05-01T02:16:11.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://Godnou.github.io/2019/04/30/Hypo_umat/"/>
     <id>http://Godnou.github.io/2019/04/30/Hypo_umat/</id>
     <published>2019-05-01T02:02:10.000Z</published>
-    <updated>2019-05-01T02:13:12.000Z</updated>
+    <updated>2019-05-01T02:16:11.000Z</updated>
     
-    <content type="html"><![CDATA[<p>As a tutorial, this post shows a simple and extensible user material subroutine (UMAT), where large deformation is considered. For simplicity, the hopyelasticiy is adopted as the material law. The robustness and correctness of the general UMAT is demonstrated in two examples: one is uniaxial extention of a single element; the other is triaxial compression of a single element.</p><div class="figure"><figure class="figure"><img src="/imag/hypo.png"></figure></div><p>Caption: (a) uniaxial extension test of a single element (Force v.s. extention). (b) triaxial compression test of a single element (Volume strain v.s. compression). Both examples show the consistent results with one obtained by the built-in subroutine.</p><p>The source code can be found here: <a href="/files/hypoelasticity.for">Hypoelasticity</a></p><p>Detailed comments are added in the source code for explanation. I hope every beginner can learn something from the source code. The framework designed in the source code can be easily applied to other material laws, such as hyperelasticity, plasticity and viscoelasticity.</p>]]></content>
+    <content type="html"><![CDATA[<p>As a tutorial, this post shows a simple and extensible user material subroutine (UMAT), where large deformation is considered. For simplicity, the hypoelasticiy is adopted as the material law. The robustness and correctness of the general UMAT is demonstrated in two examples: one is uniaxial extention of a single element; the other is triaxial compression of a single element.</p><div class="figure"><figure class="figure"><img src="/imag/hypo.png"></figure></div><p>Caption: (a) uniaxial extension test of a single element (Force v.s. extention). (b) triaxial compression test of a single element (Volume strain v.s. compression). Both examples show the consistent results with one obtained by the built-in subroutine.</p><p>The source code can be found here: <a href="/files/hypoelasticity.for">Hypoelasticity</a></p><p>Detailed comments are added in the source code for explanation. I hope every beginner can learn something from the source code. The framework designed in the source code can be easily applied to other material laws, such as hyperelasticity, plasticity and viscoelasticity.</p>]]></content>
     
     <summary type="html">
     
@@ -113,9 +113,9 @@
     <link href="http://Godnou.github.io/2019/04/08/Ferromagnetic%20elastomer%20lattice/"/>
     <id>http://Godnou.github.io/2019/04/08/Ferromagnetic elastomer lattice/</id>
     <published>2019-04-09T02:02:10.000Z</published>
-    <updated>2019-04-11T04:29:02.000Z</updated>
+    <updated>2019-05-01T02:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<p>This is one of my favorite research projects during the time I was studying at the USC. I spent a lot of time and effort on this. The following experimental picture shows that a ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>A rough theoretical analysis on the phenomena was given by me in 2016. The PDF file can be found here: <a href="/files/Magnetic_field_Oct_11_2016.pdf">'Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam'</a></p><p>I left the USC in July 2017. Unfortunately, I did not have time to finish the rest of this research project and many others.</p><p>Anyway, an excellent work based on the ferromagnetic elasomers was finally done by the successors. Reference: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201706348" title="Magnetoactive acoustic metamaterials" target="_blank" rel="noopener">Magnetoactive acoustic metamaterials</a> (Big congrats!)</p>]]></content>
+    <content type="html"><![CDATA[<p>This is one of my favorite research projects during the time I was studying at the USC. I spent a lot of time and effort on this. The following experimental picture shows that a ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p><div class="figure"><figure class="figure"><img src="/imag/1.png"></figure></div><p>A rough theoretical analysis on the phenomena was given by me in 2016. The PDF file can be found here: <a href="/files/Magnetic_field_Oct_11_2016.pdf">Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam</a></p><p>I left the USC in July 2017. Unfortunately, I did not have time to finish the rest of this research project and many others.</p><p>Anyway, an excellent work based on the ferromagnetic elasomers was finally done by the successors. Reference: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201706348" title="Magnetoactive acoustic metamaterials" target="_blank" rel="noopener">Magnetoactive acoustic metamaterials</a> (Big congrats!)</p>]]></content>
     
     <summary type="html">
     
