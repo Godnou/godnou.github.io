@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2019-05-01T23:05:03.000Z</updated>
+  <updated>2019-05-11T06:02:07.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Physical laws and deep learning</title>
+    <link href="http://Godnou.github.io/2019/05/10/PIL/"/>
+    <id>http://Godnou.github.io/2019/05/10/PIL/</id>
+    <published>2019-05-11T00:00:04.000Z</published>
+    <updated>2019-05-11T06:02:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Physical laws in our four dimensional world (time + 3D space) are usually mathematically abstracted in the form of partial differential equations. These equations are therefore broadly applied in various boundary value problems(BVPs) arising from natural phenomena or engineering practice, typically, such as wave propagation, heat transfer and elasticity problems. To solve these BVPs, analytical methods (e.g. seperation of variable method, eigenfunction expansion method, Laplacian transformation method) are limited to simple configurations. As the development of computer techniques, numerical methods (e.g. finite element method, finite volume method and finite difference method) show increasingly more powerful capability in solving these BVPs. A natural trend is the fution of the computer techniques and engineering. Thus, numerous engineering software companies (ANSYS, Dassault, Altair, MSC, etc. which occupy 99% of the industry and education market) emerged during the past seveal decades.</p><p>In recent years, the keyword &quot;data&quot; attracts people's attention due to the highly developed internet and communication techniques. That is the main reason why internet companies (google, amaxzon and many others) were trying to mine the values of the collected data underlying the internet. A trend is that machine learning revives, more precisely speaking &quot;deep learning&quot;. One branch of the hot areas is the design of various neural networks(such as LSTM, CNN, LSTM-CNN), which form the basis of the deep learning techniques and are deemed as univeral approximaters. It seems that the &quot;art of fitting&quot;(data modeling) is gradually approaching the &quot;art of reasoning&quot;(mathematical modeling) if dataset for training is large enough. However, it is not true.</p><p>Engineering data are also valuealbe and widely accessible. How can engineering problems in data forms be investigated by deep learning. In general, there are two topics: 1) data &lt;-&gt; physical laws, 2) data &lt;-&gt; solution of BVPs. There have been tremendous researches on these two topics. It is questionalbe that the deep learning techniques can surpass mathematical reasoning and traditional numerical methods. The first question is how large the dataset should be? The second question is the portability of the trained nueral networks, that is to say, once a neural network is trained for a specific BVP, it can not be accommodated to another one. Thus the deep learning techniques for discovery or solution still stop at a very limited level while the well-documented framework &quot;Tensorflow&quot; seems considerably powerful(e.g. graph calculation scheme and sybolic operators), which anyway opens doors for researches in many different displines.</p><p>References can be found here:</p><ol style="list-style-type: decimal"><li><p><a href="https://arxiv.org/abs/1711.10561" title="Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations" target="_blank" rel="noopener">Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></p></li><li><p><a href="https://arxiv.org/abs/1711.10566" title="Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations" target="_blank" rel="noopener">Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations</a></p></li><li><p><a href="https://science.sciencemag.org/content/324/5923/81" title="Distilling Free-Form Natural Laws from Experimental Data" target="_blank" rel="noopener">Distilling Free-Form Natural Laws from Experimental Data</a></p></li></ol><p>An example about physics informed deep learning solutions is shown as following</p><div class="figure"><figure class="figure"><img src="/imag/beam_vibration.png"></figure></div><p>Caption: (a) A schematic showing a cantilever beam subject to a tip time-varying force. The displacement data is extracted from the 3 points marked by red cross. (b) showing the geometry parameters, material parameters and the force function. (c) the predict result compared with the exact one.</p><p>The source code and traing dataset can be found here: script-&gt; <a href="/files/Beam.py">Beam</a> and data-&gt; <a href="/files/data.mat">Data</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Physical laws in our four dimensional world (time + 3D space) are usually mathematically abstracted in the form of partial differential e
+      
+    
+    </summary>
+    
+    
+      <category term="Machine learning" scheme="http://Godnou.github.io/tags/Machine-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>On coding a general user material subroutine</title>
