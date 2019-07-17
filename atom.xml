@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Godnou.github.io/"/>
-  <updated>2019-07-17T01:01:24.000Z</updated>
+  <updated>2019-07-17T01:03:57.000Z</updated>
   <id>http://Godnou.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://Godnou.github.io/2019/07/16/Unit_cell/"/>
     <id>http://Godnou.github.io/2019/07/16/Unit_cell/</id>
     <published>2019-07-17T00:32:00.000Z</published>
-    <updated>2019-07-17T01:01:24.000Z</updated>
+    <updated>2019-07-17T01:03:57.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Heterogeneous solids exsit widely in everyday life, such as concretes and various composite materials. Recently, pixelization of the CAD models for these materials seems interesting. Following is an example that shows the pixelization of a unit cubic cell filled with random particles. The process just simplely converts a CAD file into a discrete format that can be adopted by deeplearning software,such as Tensorflow..</p><div class="figure"><figure class="figure"><img src="/imag/Pixels.png"></figure></div><p>Caption: (a) showing the unit cell (in red) with spherical particles (in green) (b) showing the profiles obtained by cutting through 3 different planes. The pixelization is realized by a simple Python script.</p>]]></content>
+    <content type="html"><![CDATA[<p>Heterogeneous solids exsit widely in everyday life, such as concretes and various composite materials. Recently, pixelization of the CAD models for these solids seems interesting. Following is an example that shows the pixelization of a unit cubic cell filled with random particles. The process just simplely converts a CAD file into a discrete format that can be adopted by deeplearning software,such as Tensorflow..</p><div class="figure"><figure class="figure"><img src="/imag/Pixels.png"></figure></div><p>Caption: (a) showing the unit cell (in red) with spherical particles (in green) (b) showing the profiles obtained by cutting through 3 different planes. The pixelization is realized by a simple Python script.</p>]]></content>
     
     <summary type="html">
     
