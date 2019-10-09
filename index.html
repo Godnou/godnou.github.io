@@ -44,11 +44,8 @@
 
 	
 		<p>Heterogeneous solids exsit widely in our everyday life, such as concretes and various composite materials. Recently, pixelization of the CAD models for these solids seems interesting. Following is an example that shows the pixelization of a unit cubic cell filled with random particles. The process just simply converts a CAD file into a discrete format that can be adopted by deep-learning software, such as Tensorflow.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/Pixels.png"></figure>
-
-</div>
-<p>Caption: (a) showing the unit cell (in red) with spherical particles (in green) (b) showing the profiles obtained by cutting through 3 different planes. The pixelization is realized by a Python script.</p>
+<p><figure class="figure"><img src="/imag/Pixels.png" alt=""></figure></p>
+<p>Caption: (a) showing the unit cell (in red) with spherical particles (in green) (b) showing the profiles obtained by cutting through 3 different planes. The pixelization is realized by a Python script. </p>
 
 	
 
@@ -76,13 +73,10 @@
 	
 
 	
-		<p>Polar dielectric elastomers (PDEs) are electrically insulating soft materials where polar groups are chemically incorporated into material microstructures. These materials are pretty new and show promising applications, especially for low-electric-field driving soft robotics and devices, to name a few.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/PDEs.png"></figure>
-
-</div>
+		<p>Polar dielectric elastomers (PDEs) are electrically insulating soft materials where polar groups are chemically  incorporated into material microstructures. These materials are pretty new and show promising applications, especially for low-electric-field driving soft robotics and devices, to name a few. </p>
+<p><figure class="figure"><img src="/imag/PDEs.png" alt=""></figure></p>
 <p>Caption: A schematic showing the microstructure of a polymer network with polar groups.</p>
-<p>One prominent feature of PDEs is the dielectric permittivity enhancement effect of polar groups. In one of my recent papers, a mathematical formulation is proposed to shed light on the physical insight of the effect of polar groups. It is found that the effective dielectric constant is propotional to the fraction of polar groups per polymer chain in PDEs. Based on the finding, a concept called &quot;dielectric imperfection&quot; is proposed under the assumption of inhomogeneous distribution of polar groups in PDEs. A thorough discussion is given in the paper.</p>
+<p>One prominent feature of PDEs is the dielectric permittivity enhancement effect of polar groups. In one of my recent papers, a mathematical formulation is proposed to shed light on the physical insight of the effect of polar groups. It is found that the effective dielectric constant is propotional to the fraction of polar groups per polymer chain in PDEs. Based on the finding, a concept called “dielectric imperfection” is proposed under the assumption of inhomogeneous distribution of polar groups in PDEs. A thorough discussion is given in the paper. </p>
 <p>Reference: <a href="https://appliedmechanics.asmedigitalcollection.asme.org/article.aspx?articleid=2733741" title="Effect of dielectric imperfections on the electroactive deformations of polar dielectric elastomers" target="_blank" rel="noopener">Effect of dielectric imperfections on the electroactive deformations of polar dielectric elastomers</a> (Herein, I thank Prof. Liu for the funding support to finish this paper and the other three projects)</p>
 
 	
@@ -112,21 +106,21 @@
 
 	
 		<p>Physical laws in our four dimensional world (time + 3D space) are usually mathematically abstracted in the form of partial differential equations. These equations are therefore broadly applied in various boundary value problems(BVPs) arising from natural phenomena or engineering practice, typically, such as wave propagation, heat transfer and elasticity problems. To solve these BVPs, analytical methods (e.g. seperation of variable method, eigenfunction expansion method, Laplace transform method) are limited to simple configurations. As the development of computer techniques, numerical methods (e.g. finite element method, finite volume method and finite difference method) show increasingly more powerful capability in solving these BVPs. A natural trend is the fution of the computer techniques and engineering. Thus, numerous engineering software companies (ANSYS, Dassault, Altair, MSC, etc.) emerged during the past several decades.</p>
-<p>In recent years, the keyword &quot;data&quot; attracts people's attention due to the highly developed internet and communication techniques. That is the main reason why internet companies (Google, Amazon and many others) were trying to mine the values of the collected data underlying the internet. A trend is that machine learning revives, more precisely speaking &quot;deep learning&quot;. One branch of the hot areas is the design of various neural networks(such as LSTM, CNN, LSTM-CNN), which form the basis of the deep learning techniques and are deemed as universal approximaters. It seems that the &quot;art of fitting&quot;(data modeling) is gradually approaching the &quot;art of reasoning&quot;(mathematical modeling) if dataset for training is large enough.</p>
-<p>Engineering data are also valuable and widely accessible. How can engineering problems in data forms be investigated by deep learning. In general, there are two topics: 1) data &lt;-&gt; physical laws, 2) data &lt;-&gt; solution of BVPs. There have been tremendous researches on these two topics. It is questionable that the deep learning techniques can surpass mathematical reasoning and traditional numerical methods. The first question is how large the dataset should be? The second question is the portability of the trained nueral networks, that is to say, once a neural network is trained for a specific BVP, it can not be accommodated to another one. Thus, the deep learning techniques for discovery or solution still cease at a very limited level while the well-documented framework &quot;Tensorflow&quot; seems considerably powerful (e.g. graph calculation scheme and symbolic operators), which opens doors for researches in many different disciplines.</p>
+<p>In recent years, the keyword “data” attracts people’s attention due to the highly developed internet and communication techniques. That is the main reason why internet companies (Google, Amazon and many others) were trying to mine the values of the collected data underlying the internet. A trend is that machine learning revives, more precisely speaking “deep learning”. One branch of the hot areas is the design of various neural networks(such as LSTM, CNN, LSTM-CNN), which form the basis of the deep learning techniques and are deemed as universal approximaters. It seems that the “art of fitting”(data modeling) is gradually approaching the “art of reasoning”(mathematical modeling) if dataset for training is large enough.</p>
+<p>Engineering data are also valuable and widely accessible. How can engineering problems in data forms be investigated by deep learning. In general, there are two topics: 1) data <-> physical laws, 2) data <-> solution of BVPs. There have been tremendous researches on these two topics. It is questionable that the deep learning techniques can surpass mathematical reasoning and traditional numerical methods. The first question is how large the dataset should be? The second question is the portability of the trained nueral networks, that is to say, once a neural network is trained for a specific BVP, it can not be accommodated to another one. Thus, the deep learning techniques for discovery or solution still cease at a very limited level while the well-documented framework “Tensorflow” seems considerably powerful (e.g. graph calculation scheme and symbolic operators), which opens doors for researches in many different disciplines.</-></-></p>
 <p>References can be found here:</p>
-<ol style="list-style-type: decimal">
-<li><p><a href="https://arxiv.org/abs/1711.10561" title="Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations" target="_blank" rel="noopener">Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></p></li>
-<li><p><a href="https://arxiv.org/abs/1711.10566" title="Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations" target="_blank" rel="noopener">Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations</a></p></li>
-<li><p><a href="https://science.sciencemag.org/content/324/5923/81" title="Distilling Free-Form Natural Laws from Experimental Data" target="_blank" rel="noopener">Distilling Free-Form Natural Laws from Experimental Data</a></p></li>
+<ol>
+<li><p><a href="https://arxiv.org/abs/1711.10561" title="Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations" target="_blank" rel="noopener">Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations</a></p>
+</li>
+<li><p><a href="https://arxiv.org/abs/1711.10566" title="Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations" target="_blank" rel="noopener">Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations</a></p>
+</li>
+<li><p><a href="https://science.sciencemag.org/content/324/5923/81" title="Distilling Free-Form Natural Laws from Experimental Data" target="_blank" rel="noopener">Distilling Free-Form Natural Laws from Experimental Data</a></p>
+</li>
 </ol>
-<p>An example about physics informed deep learning is shown as following</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/beam_vibration.png"></figure>
-
-</div>
+<p>An example about physics informed deep learning is shown as following </p>
+<p><figure class="figure"><img src="/imag/beam_vibration.png" alt=""></figure></p>
 <p>Caption: (a) A schematic showing a cantilever beam subject to a tip time-varying force. The displacement data is extracted from the 3 points marked by red cross. (b) showing the geometry parameters, material parameters and the force function. (c) the prediction compared with the exact one.</p>
-<p>The source code and training dataset can be found here: script-&gt; <a href="/files/Beam.py">Beam</a> and data-&gt; <a href="/files/data.mat">Data</a></p>
+<p>The source code and training dataset can be found here:<br>script-&gt; <a href="/files/Beam.py">Beam</a> and data-&gt; <a href="/files/data.mat">Data</a></p>
 
 	
 
@@ -155,12 +149,9 @@
 
 	
 		<p>As a tutorial, this post shows a simple and extensible user material subroutine (UMAT), where large deformation is considered. For simplicity, the hypoelasticiy is adopted as the material law. The robustness and correctness of the general UMAT is demonstrated in two examples: one is the uniaxial extention test of a single element; the other is the triaxial compression test of a single element.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/hypo.png"></figure>
-
-</div>
+<p><figure class="figure"><img src="/imag/hypo.png" alt=""></figure></p>
 <p>Caption: (a) uniaxial extension test of a single element (Force v.s. extention). (b) triaxial compression test of a single element (Volume strain v.s. compression). Both examples show the consistent results with the one obtained by the built-in subroutine.</p>
-<p>The source code can be found here: <a href="/files/hypoelasticity.for">Hypoelasticity</a></p>
+<p>The source code can be found here:<br><a href="/files/hypoelasticity.for">Hypoelasticity</a></p>
 <p>Detailed comments are added in the source code for explanation. The framework designed in the source code can be easily applied to other material laws, such as hyperelasticity, plasticity and viscoelasticity.</p>
 
 	
@@ -190,12 +181,9 @@
 
 	
 		<p>Computational multiscale multiphysics analysis of soft composites seems for me to be an interesting topic, where time-dependent material nonlinearity, large deformations, multiphysics coulping and multiscale information passing are accounted for. Out of my personal interest, a finite element package is developt. The project was started in Dec. 2018. It is now still under development. The so-called Nested finite element method(Nested FEM) is used in the calculation. Our calculation capability can demonstrate the effect of complex material heterogeneity ranging from different spatial scales. Herein, we use the dielectric elastomer composites (DECs) as an example(see the following figure).</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/NestFEM.png"></figure>
-
-</div>
+<p><figure class="figure"><img src="/imag/NestFEM.png" alt=""></figure></p>
 <p>Caption: (a) showing the initial configuration of a bulk DEC brick. (b) showing the deformed configuration of the DEC brick subject to an electric field. (c) showing the heterogenerous structure of the DEC brick, the dielectric permittivities are different in the red regions (inclusion) and the green region (matrix). (d) showing the profile of an intersection. (e) For a single phase material, Nested FEM (inset showing the unit cell) achieves a consistent solution with the analytical one. (f) For a two phase material, the dielectric permittivity of the inclusions is x#(#=1,2,4,6,8) times larger than the one of the matrix (inset showing the unit cell). The limit point, i.e, the largest voltage load, is decreased as the dielectric permittivity of the inclusions increases. Both Nested FEM and direct numerical simulation confirm the same result.</p>
-<p>If one is also interested in this project, you are welcomed to join in developing the package.</p>
+<p>If one is also interested in this project, you are welcomed to join in developing the package. </p>
 
 	
 
@@ -224,11 +212,8 @@
 
 	
 		<p>The first project that I had spent several months to finish in late 2015 when I was pursuing a PhD at the University of Southern California. In order to evaluate the material properties of the architected metamaterials with different lattice structures, they are designed in a CAD software and fabricated by a 3D printer.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/Elastomer_lattice.png"></figure>
-
-</div>
-<p>A research paper is published based on this. Reference: <a href="https://www.nature.com/articles/srep34147" title="Highly-stretchable 3D-architected mechanical metamaterials" target="_blank" rel="noopener">Highly-stretchable 3D-architected mechanical metamaterials</a></p>
+<p><figure class="figure"><img src="/imag/Elastomer_lattice.png" alt=""></figure></p>
+<p>A research paper is published based on this.<br>Reference: <a href="https://www.nature.com/articles/srep34147" title="Highly-stretchable 3D-architected mechanical metamaterials" target="_blank" rel="noopener">Highly-stretchable 3D-architected mechanical metamaterials</a></p>
 
 	
 
@@ -257,11 +242,8 @@
 
 	
 		<p>The pictures below were taken in Apr. 2016. It can be appreciated purely from a aesthetical perspective without any rational pursuit.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/structure.png"></figure>
-
-</div>
-<p>A research paper is published based on this. Reference: <a href="https://pubs.rsc.org/en/content/articlehtml/2017/sm/c7sm01435j" title="Stretchable 3D lattice conductors" target="_blank" rel="noopener">Stretchable 3D lattice conductors</a></p>
+<p><figure class="figure"><img src="/imag/structure.png" alt=""></figure></p>
+<p>A research paper is published based on this.<br>Reference: <a href="https://pubs.rsc.org/en/content/articlehtml/2017/sm/c7sm01435j" title="Stretchable 3D lattice conductors" target="_blank" rel="noopener">Stretchable 3D lattice conductors</a></p>
 
 	
 
@@ -290,11 +272,8 @@
 
 	
 		<p>This is one of my favorite research projects during the time I was studying at the USC. I spent a lot of time and effort on this. The following experimental picture shows that a ferromagnetic elastomer octet-truss lattice is deformed subject to a magnetic field.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/1.png"></figure>
-
-</div>
-<p>A rough theoretical analysis on the phenomena was given by me in 2016. The PDF file can be found here: <a href="/files/Magnetic_field_Oct_11_2016.pdf">Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam</a></p>
+<p><figure class="figure"><img src="/imag/1.png" alt=""></figure></p>
+<p>A rough theoretical analysis on the phenomena was given by me in 2016. The PDF file can be found here:<br><a href="/files/Magnetic_field_Oct_11_2016.pdf">Magnetic Field controlled Buckling and Postbuckling of an Inclined Beam</a></p>
 <p>I left the USC in July 2017. Unfortunately, I did not have time to finish the rest of this research project and many others.</p>
 <p>Anyway, an excellent work based on the ferromagnetic elasomers was finally done by the successors. Reference: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201706348" title="Magnetoactive acoustic metamaterials" target="_blank" rel="noopener">Magnetoactive acoustic metamaterials</a> (Big congrats!)</p>
 
@@ -324,15 +303,9 @@
 	
 
 	
-		<p>An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural interaction analysis, where the inverse domain is meshed for the fluid field.</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/per1.png"></figure>
-
-</div>
-<div class="figure">
-<figure class="figure"><img src="/imag/per2.png"></figure>
-
-</div>
+		<p>An Octet-truss structure is designed as an representative volume element in a two-scale fluid structural<br>interaction analysis, where the inverse domain is meshed for the fluid field.</p>
+<p><figure class="figure"><img src="/imag/per1.png" alt=""></figure></p>
+<p><figure class="figure"><img src="/imag/per2.png" alt=""></figure></p>
 
 	
 
@@ -360,16 +333,10 @@
 	
 
 	
-		<p>A Film-substrate system is subject to compression, where the film is attached to a soft substrate with complex architecture:</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/buckling1.png"></figure>
-
-</div>
+		<p>A Film-substrate system is subject to compression, where the film is attached to a soft substrate<br>with complex architecture:</p>
+<p><figure class="figure"><img src="/imag/buckling1.png" alt=""></figure></p>
 <p>Buckling modes under different stiffness ratio between the substrate and the thin film:</p>
-<div class="figure">
-<figure class="figure"><img src="/imag/buckling2.png"></figure>
-
-</div>
+<p><figure class="figure"><img src="/imag/buckling2.png" alt=""></figure></p>
 
 	
 
